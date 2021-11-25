@@ -20,12 +20,13 @@ public class TreeSetApp {
 		for(String s : tSet) {
 			System.out.println(s);
 		}
-		
-		//Stream way of storting the HashSet 		
+
+		System.out.println("\n");
+		//Stream way of sorting the HashSet
 		startSet.stream().sorted().forEach(s -> System.out.println(s));
 		
-		//Stream way of storting the HashSet and sorting in reverse order
-		startSet.stream().sorted(Comparator.reverseOrder()).forEach(s -> System.out.println(s));
+		//Stream way of sorting the HashSet and sorting in reverse order
+		startSet.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
 	}
 
 }

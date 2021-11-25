@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Scanner;
 
-public class SocksMerchatApp {
+public class SocksMerchantApp {
 
 	// Complete the sockMerchant function below.
 	static int sockMerchant(int n, int[] ar) {

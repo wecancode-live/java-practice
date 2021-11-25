@@ -15,7 +15,7 @@ public class StrawHouseBuilder implements HouseBuilder {
 
 	@Override
 	public void buildStructure() {
-		this.house.setStructure("Piller with Bamboo! and Covering with Straws!");
+		this.house.setStructure("Pillar with Bamboo! and Covering with Straws!");
 
 	}
 

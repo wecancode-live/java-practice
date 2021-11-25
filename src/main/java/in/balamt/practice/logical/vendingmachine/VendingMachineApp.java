@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class VendineMachineApp {
+public class VendingMachineApp {
 
 	/**
 	 * Problem Statement You need to design a Vending Machine which Accepts coins of

@@ -1,0 +1,83 @@
+root:  in.balamt.practice
+categories:
+  - name: collections.map
+    classes:
+      classname:
+        - HashMapApp
+        - TreeMapApp
+  - name: collections.set
+    classes:
+      classname:
+        - HashSetApp
+        - TreeSetApp
+  - name: collections.arraylist
+    classes:
+      classname:
+        - ArrayListApp
+  - name: designpattern
+    classes:
+      classname:
+        - abstractfactory.AbstractFactoryApp
+        - adapter.AdapterApp
+        - builder.BuilderApp
+        - facade.FacadeApp
+        - factory.VehicleApp
+        - proxy.ProxyApp
+        - singleton.SingletonApp
+  - name: equal
+    classes:
+      classname:
+        - EqualApp
+  - name: exception
+    classes:
+      classname:
+        - FinallyApp
+        - ThrowableHandlingApp
+  - name: integers
+    classes:
+      classname:
+        - ExtractNumberFromStringApp
+  - name: lambda
+    classes:
+      classname:
+        - LambdaApp
+  - name: logical
+    classes:
+      classname:
+        - printing.pattern.NumberReducingPatternApp
+        - printing.pattern.StarPatternApp
+        - vendingmachine.VendingMachineApp
+        - CountingHikesApp
+        - MinimumAbsoluteDifferenceApp
+        - PalindromeNumberApp
+#        - PowerApp
+        - PrimeNumberApp
+        - SocksMerchantApp
+  - name: main
+    classes:
+      classname:
+        - MainApp
+        - StaticMethodAndClassApp
+  - name: secondlargest
+    classes:
+      classname:
+        - SecondLargestNumberApp
+  - name: serialization
+    classes:
+      classname:
+        - SerializationApp
+  - name: stream
+    classes:
+      classname:
+#        - HackerEarthFizzBuzzApp
+        - StreamApp
+  - name: string
+    classes:
+      classname:
+        - CapitalCaseApp
+        - PalindromeApp
+        - StringPractice
+  - name: funinterface
+    classes:
+      classname:
+        - FunInterfaceApp
