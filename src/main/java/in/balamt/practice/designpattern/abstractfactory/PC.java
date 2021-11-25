@@ -16,4 +16,9 @@ public class PC extends Computer {
 	public String getHDD() {
 		return this.hdd;
 	}
+
+	@Override
+	public String getType() {
+		return "PC";
+	}
 }

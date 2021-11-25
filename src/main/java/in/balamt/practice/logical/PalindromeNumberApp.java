@@ -1,12 +1,12 @@
 package in.balamt.practice.logical;
 
-public class PalindromeNumbeApp {
+public class PalindromeNumberApp {
 
 	public static void main(String[] args) {
 
 		int inputNum = 1331;
 
-		if (PalindromeNumbeApp.isPalindrome(inputNum)) {
+		if (PalindromeNumberApp.isPalindrome(inputNum)) {
 			System.out.println(String.format("%d is Palindrome Number", inputNum));
 		} else {
 			System.out.println(String.format("%d is NOT Palindrome Number", inputNum));

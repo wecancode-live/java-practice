@@ -15,7 +15,7 @@ public class ConcreteHouseBuilder implements HouseBuilder {
 
 	@Override
 	public void buildStructure() {
-		this.house.setStructure("Pillers with Concrete and TMT Bars!");
+		this.house.setStructure("Pillars with Concrete and TMT Bars!");
 	}
 
 	@Override

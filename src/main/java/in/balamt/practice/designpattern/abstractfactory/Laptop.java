@@ -3,6 +3,7 @@ package in.balamt.practice.designpattern.abstractfactory;
 public class Laptop extends Computer {
 	private String ram;
 	private String hdd;
+
 	public Laptop(String ram, String hdd) {
 		this.ram = ram;
 		this.hdd = hdd;
@@ -14,5 +15,10 @@ public class Laptop extends Computer {
 	@Override
 	public String getHDD() {
 		return this.hdd;
+	}
+
+	@Override
+	public String getType() {
+		return "Laptop";
 	}
 }

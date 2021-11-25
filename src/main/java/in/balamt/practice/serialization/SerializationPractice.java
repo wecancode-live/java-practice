@@ -8,7 +8,7 @@ import java.io.ObjectOutputStream;
 
 public class SerializationPractice {
 
-	private static final String SER_FILE_PATH = "E:\\dev\\temp\\obj.txt";
+	private static final String SER_FILE_PATH = SerializationPractice.class.getClassLoader().getResource("obj.txt").getPath();
 
 	public void serializeModel(Employee employee) {
 

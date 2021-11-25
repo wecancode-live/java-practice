@@ -9,8 +9,8 @@ public class AbstractFactoryApp {
 		Computer pc = ComputerFactory.constructComputer(
 				new PCFactory("16G", "500GB"));
 		
-		System.out.println("Laptop " + laptop.toString());
-		System.out.println("PC " + pc.toString());
+		System.out.println(laptop.toString());
+		System.out.println(pc.toString());
 	}
 
 }
