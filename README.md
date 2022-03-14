@@ -74,7 +74,7 @@
 
 ### Logical
 * [Check Prime number](src/main/java/in/balamt/practice/logical/PrimeNumberApp.java)  
-* [Check number is Palindrome or not.](src/main/java/in/balamt/practice/logical/PalindromeNumbeApp.java)
+* [Check number is Palindrome or not.](src/main/java/in/balamt/practice/logical/PalindromeNumberApp.java)
 > Refer URL [Logical](src/main/java/in/balamt/practice/logical)
 
 [Goto Top](#java-practice)
