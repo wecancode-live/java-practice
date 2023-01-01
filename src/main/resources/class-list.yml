@@ -1,5 +1,9 @@
 root:  in.balamt.practice
 categories:
+  - name: algorithms.sort
+    classes:
+      classname:
+        - BubbleSortApp
   - name: collections.map
     classes:
       classname:
@@ -14,6 +18,10 @@ categories:
     classes:
       classname:
         - ArrayListApp
+  - name: collections.arrays
+    classes:
+      classname:
+        - ArraysApp
   - name: designpattern
     classes:
       classname:
