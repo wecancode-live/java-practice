@@ -1,4 +1,4 @@
-package in.balamt.practice.main;
+ package in.balamt.practice.main;
 
 public class StaticMethodAndClassApp {
 /**

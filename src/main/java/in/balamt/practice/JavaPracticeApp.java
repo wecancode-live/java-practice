@@ -8,7 +8,7 @@ import java.io.File;
 
 public class JavaPracticeApp {
 
-    public static final String CLASS_LIST_YAML_FILE = "class-list.yml";
+    public static final String CLASSESLIST_YAML_FILE = "classeslist.yaml";
     public static final String MAIN_METHOD_NAME = "main";
     public static final String STAR_PRINT = " **************** ";
     public static final String NEW_LINE = System.lineSeparator();
@@ -18,7 +18,7 @@ public class JavaPracticeApp {
 
         try {
             ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-            File file = new File(classLoader.getResource(CLASS_LIST_YAML_FILE).getFile());
+            File file = new File(classLoader.getResource(CLASSESLIST_YAML_FILE).getFile());
             ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
             objectMapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
             ClassItem classList;
