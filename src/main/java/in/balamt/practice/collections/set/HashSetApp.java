@@ -34,8 +34,8 @@ public class HashSetApp {
                 "hello","world","sample","0bit","1byte","hello","world","hello","0bit"
         };
 
-        Set<String> deDuplicatedSet = new HashSet<String>();
-        Map<String, Integer> duplicateMap = new HashMap<String,Integer>();
+        Set<String> deDuplicatedSet = new HashSet<>();
+        Map<String, Integer> duplicateMap = new HashMap<>();
 
         for(String s : myDataArray){
             if(!deDuplicatedSet.add(s)){
@@ -49,21 +49,19 @@ public class HashSetApp {
 
         duplicateMap.forEach((s, integer) -> {
             deDuplicatedSet.remove(s);
-            System.out.println(String.format("%s is Duplicate for %d times", s, integer));
+            System.out.printf("%s is Duplicate for %d times%n", s, integer);
         });
 
-        deDuplicatedSet.forEach(s -> {
-            System.out.println(String.format("%s is Unique", s));
-        });
+        deDuplicatedSet.forEach(s -> System.out.printf("%s is Unique%n", s));
 
         String btm = new String("BatMan");
         Object[] sample = new Object[]{
-                "Batman", "Super Man", 120, 900, 60d, 40l, 20.23d, 'A',
+                "Batman", "Super Man", 120, 900, 60d, 40L, 20.23d, 'A',
                 120,120,120,120,"Batman", "BatMan", new String("BatMan"), btm
         };
 
-        Set<Object> deDuplicatedObjectSet = new HashSet<Object>();
-        Map<Object, Integer> duplicateObjectMap = new HashMap<Object, Integer>();
+        Set<Object> deDuplicatedObjectSet = new HashSet<>();
+        Map<Object, Integer> duplicateObjectMap = new HashMap<>();
 
         for(Object s : sample){
             if(!deDuplicatedObjectSet.add(s)){
@@ -77,12 +75,10 @@ public class HashSetApp {
 
         duplicateObjectMap.forEach((s, integer) -> {
             deDuplicatedObjectSet.remove(s);
-            System.out.println(String.format("%s is Duplicate for %d times", s, integer));
+            System.out.printf("%s is Duplicate for %d times%n", s, integer);
         });
 
-        deDuplicatedObjectSet.forEach(s -> {
-            System.out.println(String.format("%s is Unique", s));
-        });
+        deDuplicatedObjectSet.forEach(s -> System.out.printf("%s is Unique%n", s));
 
     }
 

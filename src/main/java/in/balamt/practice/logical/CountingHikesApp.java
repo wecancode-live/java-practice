@@ -1,16 +1,9 @@
 package in.balamt.practice.logical;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Map.Entry;
-
 public class CountingHikesApp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		int result = countingValleys(8,"UDDDUDUU");
+		int result = countingValleys(2,"UDDDUDUUDU");
 		System.out.println("Result  " + result);
 
 	}

@@ -2,9 +2,9 @@ package in.balamt.practice.string;
 
 public interface StringBuilderPractice {
 	
-	public Boolean isPalindromeX(String inputText);
+	Boolean isPalindromeX(String inputText);
 	
-	public static Boolean isPalindrome(String inputText) {
+	static Boolean isPalindrome(String inputText) {
 		if(inputText == null)
 			return Boolean.FALSE;
 		StringBuilder sb = new StringBuilder(inputText);

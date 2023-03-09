@@ -25,13 +25,13 @@ public class ArrayListApp {
         lambdaSortArray = null;
 
         //Sort using Set
-        SortedArrayList<String> setSortArray = new SortedArrayList<String>();
+        SortedArrayList<String> setSortArray = new SortedArrayList<>();
         setSortArray.insertSorted("Bat");
         setSortArray.insertSorted("Cat");
         setSortArray.insertSorted("Rat");
         setSortArray.insertSorted("At");
 
-        setSortArray.stream().forEach(System.out::println);
+        setSortArray.forEach(System.out::println);
 
     }
 }

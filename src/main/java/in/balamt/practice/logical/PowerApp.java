@@ -11,7 +11,7 @@ public class PowerApp {
 
 		InputStreamReader r = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(r);
-		int tCase = Integer.parseInt(br.readLine());
+		//int tCase = Integer.parseInt(br.readLine());
 		String[] val = br.readLine().split(" ");
 		int L = Integer.parseInt(val[0]);
 		int R = Integer.parseInt(val[1]);

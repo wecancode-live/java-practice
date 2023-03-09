@@ -38,7 +38,7 @@ public class SocksMerchantApp {
 
 	public static void main(String[] args) throws IOException {
 		int n = 9;
-		int[] arItems = { 10, 20, 20, 10, 10, 30, 50, 10, 20 };
+		int[] arItems = { 10, 20, 20, 10, 10, 30, 50, 10, 20, 10, 10 };
 		int result = sockMerchant(n, arItems);
 		
 		System.out.println("Result "  + result);

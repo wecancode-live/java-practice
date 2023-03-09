@@ -1,6 +1,7 @@
 # Java Practice
 ## Covered Topics
 * [Java](#java)
+* [Algorithm](#algorithm)
 * [Design Pattern](#design-pattern)
 * [String](#string)
 * [Exception](#exception)
@@ -10,9 +11,16 @@
 * [Logical](#logical)
 
 ### Java
-* Main method name
-* Static Block 
-> Refer URL for Java [MainApp.java](src/main/java/in/balamt/practice/main/MainApp.java)
+* [Main method name](src/main/java/in/balamt/practice/main/MainApp.java)
+* [Static Block](src/main/java/in/balamt/practice/main/StaticMethodAndClassApp.java) 
+> Refer URL for Java [Main App](src/main/java/in/balamt/practice/main)
+
+[Goto Top](#java-practice)
+
+### Algorithm
+* Sort
+  * [Bubble Sort](src/main/java/in/balamt/practice/algorithms/sort/BubbleSortApp.java)
+
 
 [Goto Top](#java-practice)
 
@@ -29,7 +37,8 @@
 [Goto Top](#java-practice)
 
 ### String
-* Palindrome using StringBuilder (Using Inbuild Method stringbuilder.reverse())
+* [Palindrome using StringBuilder](src/main/java/in/balamt/practice/string/PalindromeApp.java) (Using Inbuilt Method reverse())
+* [Captial Case using StringUtil and Streams](src/main/java/in/balamt/practice/string/CapitalCaseApp.java)
 > Refer URL for [String](src/main/java/in/balamt/practice/string)
 
 [Goto Top](#java-practice)
@@ -39,20 +48,28 @@
 * Throw
 * Throws
 * Try-Catch
-* Finally
-* Custom Exception
+* [Finally](src/main/java/in/balamt/practice/exception/FinallyApp.java)
+* [Custom Exception](src/main/java/in/balamt/practice/exception/ThrowableCustomException.java)
 > Refer URL for [Exception](src/main/java/in/balamt/practice/exception)
 
 [Goto Top](#java-practice)
 
-### Collections & Map
+### Collections-Map
 #### Set 
-* TreeSet - Sorting using Streams and TreeSet Sort
+* [TreeSet](src/main/java/in/balamt/practice/collections/set/TreeSetApp.java) - Sorting using Streams and TreeSet Sort
+* [HashSet](src/main/java/in/balamt/practice/collections/set/HashSetApp.java) - Find duplicate items using HashSet
 > Refer URL [TreeSetApp.java](src/main/java/in/balamt/practice/collections/set/TreeSetApp.java)
 #### Map
 * [HashMap](src/main/java/in/balamt/practice/collections/map/HashMapApp.java) -Count number of letters in given string
 * [TreeMap](src/main/java/in/balamt/practice/collections/map/TreeMapApp.java) - Natural Sorting with Key value pair 
 > Refer URL [Map](src/main/java/in/balamt/practice/collections/map)
+#### Arrays
+* [Array](src/main/java/in/balamt/practice/collections/arrays/ArraysApp.java)
+> Refer URL [Array](src/main/java/in/balamt/practice/collections/arrays)
+#### ArrayList
+* [ArrayList](src/main/java/in/balamt/practice/collections/arraylist/ArrayListApp.java)
+* [Sorted ArrayList](src/main/java/in/balamt/practice/collections/arraylist/SortedArrayList.java)
+> Refer URL [Array List](src/main/java/in/balamt/practice/collections/arraylist)
 
 [Goto Top](#java-practice)
 
@@ -61,7 +78,14 @@
 * forEach
 * sorted
 * limit
+* [HackerEarth FizzBuzz](src/main/java/in/balamt/practice/stream/HackerEarthFizzBuzzApp.java)
 > Refer URL [StreamApp.java](src/main/java/in/balamt/practice/stream/StreamApp.java)
+
+[Goto Top](#java-practice)
+
+### Lambda
+* [lambda](src/main/java/in/balamt/practice/lambda/LambdaApp.java) - Runnable and Thread
+> Refer URL [StreamApp.java](src/main/java/in/balamt/practice/lambda/)
 
 [Goto Top](#java-practice)
 

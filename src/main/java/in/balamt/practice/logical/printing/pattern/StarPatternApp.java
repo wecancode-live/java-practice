@@ -4,7 +4,7 @@ public class StarPatternApp {
 
 	public static void main(String[] args) {
 
-		StarPatternApp.printPattern("*", 5);
+		StarPatternApp.printPattern("*", 18);
 
 	}
 
