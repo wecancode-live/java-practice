@@ -7,8 +7,10 @@
 * [Exception](#exception)
 * [Collection](#collections-map) [Set & Map]
 * [Streams](#streams)
+* [Lambda](#lambda)
 * [Serialization](#serialization)
 * [Logical](#logical)
+* [SOLID](#solid)
 
 ### Java
 * [Main method name](src/main/java/in/balamt/practice/main/MainApp.java)
@@ -100,5 +102,15 @@
 * [Check Prime number](src/main/java/in/balamt/practice/logical/PrimeNumberApp.java)  
 * [Check number is Palindrome or not.](src/main/java/in/balamt/practice/logical/PalindromeNumberApp.java)
 > Refer URL [Logical](src/main/java/in/balamt/practice/logical)
+
+[Goto Top](#java-practice)
+
+### Solid
+* [Single Responsibility Principle (SRP)](src/main/java/in/balamt/practice/solid/Single_Responsibility_Principle-SRP.md)
+* [Open/Closed Principle (OCP)](src/main/java/in/balamt/practice/solid/Open_Closed_Principle-OCP.md)
+* [Liskov Substitution Principle (LSP)](src/main/java/in/balamt/practice/solid/Liskov_Substitution_Principle-LSP.md)
+* [Interface Segregation Principle (ISP)](src/main/java/in/balamt/practice/solid/Interface_Segregation_Principle-ISP.md)
+* [Dependency Inversion Principle (DIP)](src/main/java/in/balamt/practice/solid/Dependency_Inversion_Principle-DIP.md)
+
 
 [Goto Top](#java-practice)
