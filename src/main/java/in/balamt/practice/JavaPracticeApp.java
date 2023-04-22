@@ -3,8 +3,10 @@ package in.balamt.practice;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import in.balamt.practice.util.JavaPracticeUtils;
 
 import java.io.File;
+import java.util.Objects;
 
 public class JavaPracticeApp {
 
@@ -18,7 +20,7 @@ public class JavaPracticeApp {
 
         try {
             ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-            File file = new File(classLoader.getResource(CLASSESLIST_YAML_FILE).getFile());
+            File file = new File(Objects.requireNonNull(classLoader.getResource(CLASSESLIST_YAML_FILE)).getFile());
             ObjectMapper objectMapper = new ObjectMapper(new YAMLFactory());
             objectMapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
             ClassItem classList;
@@ -36,13 +38,11 @@ public class JavaPracticeApp {
                                     stringBuilder.append(subpackage);
                                     stringBuilder.append(DOT_CHAR);
                                     stringBuilder.append(clsnm);
-                                    System.out.println(STAR_PRINT + clsnm + STAR_PRINT);
+                                    JavaPracticeUtils.printLine(STAR_PRINT , clsnm , STAR_PRINT);
                                     try {
                                         String[] ar = null;
                                         Class.forName(stringBuilder.toString()).getMethod(MAIN_METHOD_NAME, String[].class).invoke(null, (Object) ar);
-                                        System.out.println(NEW_LINE);
-                                    } catch (IllegalAccessException e) {
-                                        e.printStackTrace();
+                                        JavaPracticeUtils.printLine(NEW_LINE);
                                     } catch (Exception e) {
                                         e.printStackTrace();
                                     }
