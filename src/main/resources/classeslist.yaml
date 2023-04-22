@@ -103,11 +103,8 @@ categories:
       classname:
         - IfApp
         - IfElseApp
-  - name: solid.srp
+  - name: solid
     classes:
       classname:
-        - SRPEmailApp
-  - name: solid.ocp
-    classes:
-      classname:
-        - OCPCalculateAreaApp
+        - srp.SRPEmailApp
+        - ocp.OCPCalculateAreaApp
