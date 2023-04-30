@@ -11,4 +11,9 @@ public class Triangle extends Shape{
     public double area() {
         return 0.5 * base * height;
     }
+
+    @Override
+    public void draw() {
+        System.out.println("Drawing Triangle");
+    }
 }

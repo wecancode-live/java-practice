@@ -12,4 +12,9 @@ public class Rectangle extends Shape {
     public double area() {
         return this.width * this.height;
     }
+
+    @Override
+    public void draw() {
+        System.out.println("Drawing Rectangle");
+    }
 }

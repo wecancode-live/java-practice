@@ -108,3 +108,5 @@ categories:
       classname:
         - srp.SRPEmailApp
         - ocp.OCPCalculateAreaApp
+        - lsp.LSPDrawShapeApp
+        - isp.ISPDriveFlyApp
