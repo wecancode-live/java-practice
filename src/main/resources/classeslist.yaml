@@ -110,3 +110,4 @@ categories:
         - ocp.OCPCalculateAreaApp
         - lsp.LSPDrawShapeApp
         - isp.ISPDriveFlyApp
+        - dip.DIPCalculatorApp
