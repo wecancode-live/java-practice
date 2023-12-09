@@ -9,11 +9,14 @@ import lombok.*;
 @Builder
 @ToString
 public class Email {
-    private String to, from, subject, body;
+    private String to;
+    private String from;
+    private String subject;
+    private String body;
 
 
     /**
-     * Below actions need to be in seprate class, that way we are not having multiple
+     * Below actions need to be in separate class, that way we are not having multiple
      * operations/actions in one single class.
      *
      * This way we are sticking with the Single Responsibility Principle in SOLID principles.

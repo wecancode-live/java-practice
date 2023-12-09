@@ -1,5 +1,7 @@
 package in.balamt.practice.algorithms.sort;
 
+import in.balamt.practice.util.JavaPracticeUtils;
+
 public class BubbleSortApp {
 
     /**
@@ -23,6 +25,9 @@ public class BubbleSortApp {
      */
 
     public static void main(String[] args) {
+
+        JavaPracticeUtils.printDoc(BubbleSortApp.class);
+
         //flag to check if swap happened
         boolean swapped = false;
         // Array Size
@@ -39,6 +44,14 @@ public class BubbleSortApp {
         numArray[6] = 9;
         numArray[7] = 6;
         numArray[8] = 5;
+        JavaPracticeUtils.print("Print Original Order of the array ");
+        StringBuilder sb = new StringBuilder();
+        for(int ind = 0; ind < numArray.length; ind++){
+            sb.append(numArray[ind]);
+            sb.append(" | ");
+        }
+
+        JavaPracticeUtils.print(sb);
 
         // Starting to loop from the beginning of the array
         for (int x = 0; x < arraySize - 1; x++) {
@@ -49,6 +62,12 @@ public class BubbleSortApp {
             if (!swapped) {
                 break;
             }
+            StringBuilder sb1 = new StringBuilder();
+            for(int ind = 0; ind < numArray.length; ind++){
+                sb1.append(numArray[ind]);
+                sb1.append(" | ");
+            }
+            JavaPracticeUtils.print(sb1);
         }
         printOutput(numArray);
 
@@ -66,7 +85,7 @@ public class BubbleSortApp {
 
     public static void printOutput(int[] numbers) {
         for (int x = 0; x < numbers.length; x++) {
-            System.out.print("| " + numbers[x] + " ");
+            JavaPracticeUtils.printLine("| " + numbers[x] + "| ");
         }
     }
 }

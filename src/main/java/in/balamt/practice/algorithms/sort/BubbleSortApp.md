@@ -60,7 +60,7 @@ Then we move to the next two values, 35 and 10.
 
 | 14  | 27  | 33  | ```35``` | ```10``` |
 |-----|-----|-----|----------|----------|
-We know then that 10 is smaller 35. Hence they are not sorted.
+We know then that 10 is smaller 35. Hence, they are not sorted.
 
 
 | 14  | 27  | 33  | ```35``` | ```10``` |
