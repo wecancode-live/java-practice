@@ -1,5 +1,7 @@
 package in.balamt.practice.designpattern.singleton;
 
+import in.balamt.practice.util.JavaPracticeUtils;
+
 public class DAOUtil {
 
 	// Private Constructor to stop creating object outside of this class
@@ -17,6 +19,6 @@ public class DAOUtil {
 	}
 
 	public void printConnectionURL() {
-		System.out.println("mysql:jdbc://localhost:3306/");
+		JavaPracticeUtils.printLine("mysql:jdbc://localhost:3306/");
 	}
 }

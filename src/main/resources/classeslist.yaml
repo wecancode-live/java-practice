@@ -41,6 +41,9 @@ categories:
       classname:
         - FinallyApp
         - ThrowableHandlingApp
+        - catchingmultipleexception.CatchingMultipleExceptionApp
+        - suppressedexceptions.SuppressedExceptionsApp
+        - trywithresources.TryWithResourcesApp
   - name: integers
     classes:
       classname:
@@ -79,6 +82,7 @@ categories:
       classname:
 #        - HackerEarthFizzBuzzApp
         - StreamApp
+        - filter.StreamFilterApp
   - name: string
     classes:
       classname:
@@ -111,3 +115,20 @@ categories:
         - lsp.LSPDrawShapeApp
         - isp.ISPDriveFlyApp
         - dip.DIPCalculatorApp
+  - name: java8
+    classes:
+      classname:
+        - defaultmethod.DefaultMethodVehicleApp
+        - abstractclass.AbstractClassApp
+        - optional.OptionalApp
+        - lambda.LambdaApp
+  - name: varargs
+    classes:
+      classname:
+        - VarArgsApp
+        - SafeVarArgsApp
+  - name: funinterface
+    classes:
+      classname:
+        - FunctionalInterfaceApp
+        - methodreference.MethodReferenceApp

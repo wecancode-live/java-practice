@@ -1,5 +1,7 @@
 package in.balamt.practice.designpattern.proxy;
 
+import in.balamt.practice.util.JavaPracticeUtils;
+
 public class ProxyApp {
 
 	public static void main(String[] args) {
@@ -9,7 +11,9 @@ public class ProxyApp {
 			card.processCard("4123");
 			card.processCard("4221");					
 		} catch (Exception e) {
-			System.err.println(e.getMessage());
+			JavaPracticeUtils.printLine(e.getMessage());
+		} catch (Throwable throwable) {
+			throw new RuntimeException(throwable);
 		}
 	}
 }
