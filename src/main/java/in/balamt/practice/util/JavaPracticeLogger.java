@@ -1,26 +1,29 @@
 package in.balamt.practice.util;
 
-import java.io.*;
+import lombok.extern.slf4j.Slf4j;
+
+import java.io.ByteArrayInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
-import java.util.logging.Logger;
 
-public class JavaPracticeUtils {
+public interface JavaPracticeLogger {
+    @Slf4j
+    final class LogHandler{}
 
-    static Logger logger = Logger.getLogger(JavaPracticeUtils.class.getName());
+    static void printLn(Object... msg) {
 
-    private JavaPracticeUtils() {
-    }
-    public static void printLine(Object... msg) {
         StringBuilder sb = new StringBuilder();
         for (Object line : msg
         ) {
             sb.append(line);
             sb.append("\t");
         }
-        System.out.println(sb);
+        LogHandler.log.error(sb.toString());
     }
 
-    public static void print(Object... msg) {
+    static void print(Object... msg){
         StringBuilder sb = new StringBuilder();
         int index = 0;
         for (Object line : msg
@@ -32,19 +35,18 @@ public class JavaPracticeUtils {
                 sb.append("\n");
             }
         }
-        System.out.print(sb);
+        LogHandler.log.error(sb.toString());
     }
 
-    public static void printDoc(Class className) {
+    static void printDoc(Class className){
         String packagePath = className.getPackageName().replace(".", "/");
         String docFileName = className.getSimpleName();
-        System.out.println(("Opened the File /" + packagePath + "/" + docFileName + ".md") + "\n");
+        System.out.println(("/" + packagePath + "/" + docFileName + ".md"));
 
         try {
-            InputStream docFile = new ByteArrayInputStream(Class.forName(className.getPackageName() + "." + className.getSimpleName()).getResourceAsStream(docFileName + ".md").readAllBytes());
+            InputStream docFile = new ByteArrayInputStream(Class.forName(className.getSimpleName()).getResourceAsStream(packagePath + "/" + docFileName + ".md").readAllBytes());
             String content = new String(docFile.readAllBytes(), StandardCharsets.UTF_8);
-            MdFileParser.parse(content);
-            //System.out.println(content);
+            System.out.println(content);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -53,6 +55,6 @@ public class JavaPracticeUtils {
             e.printStackTrace();
         }
 
-        System.out.println("End of File " + packagePath + "/" + docFileName +".md\n");
+        LogHandler.log.error(packagePath + " " + docFileName);
     }
 }

@@ -76,18 +76,25 @@
 [Goto Top](#java-practice)
 
 ### Streams
-* map
+* [filter](src/main/java/in/balamt/practice/stream/filter)
+  * [StreamFilterApp.java](src/main/java/in/balamt/practice/stream/filter/StreamFilterApp.java)
+* [intermediate](src/main/java/in/balamt/practice/stream/intermediate)
+  * [map](src/main/java/in/balamt/practice/stream/intermediate/map)
+    * [StreamIntermediateMap.java](src/main/java/in/balamt/practice/stream/intermediate/map/StreamIntermediateMapApp.java)
+  * [flatMap](src/main/java/in/balamt/practice/stream/intermediate/flatmap)
+    * [StreamIntermediateFlatMap.java](src/main/java/in/balamt/practice/stream/intermediate/flatmap/StreamIntermediateFlatMapApp.java)
 * forEach
 * sorted
 * limit
 * [HackerEarth FizzBuzz](src/main/java/in/balamt/practice/stream/HackerEarthFizzBuzzApp.java)
-> Refer URL [StreamApp.java](src/main/java/in/balamt/practice/stream/StreamApp.java)
+* [StreamApp.java](src/main/java/in/balamt/practice/stream/StreamApp.java)
+> Refer URL [Stream](src/main/java/in/balamt/practice/stream)
 
 [Goto Top](#java-practice)
 
 ### Lambda
 * [lambda](src/main/java/in/balamt/practice/lambda/LambdaApp.java) - Runnable and Thread
-> Refer URL [StreamApp.java](src/main/java/in/balamt/practice/lambda/)
+> Refer URL [Lambda](src/main/java/in/balamt/practice/stream)
 
 [Goto Top](#java-practice)
 
@@ -107,10 +114,15 @@
 
 ### Solid
 * [Single Responsibility Principle (SRP)](src/main/java/in/balamt/practice/solid/Single_Responsibility_Principle-SRP.md)
+  * [SRPEmailApp.java](src/main/java/in/balamt/practice/solid/srp/SRPEmailApp.java)
 * [Open/Closed Principle (OCP)](src/main/java/in/balamt/practice/solid/Open_Closed_Principle-OCP.md)
+  * [OCPCalculatorAreaApp.java](src/main/java/in/balamt/practice/solid/ocp/OCPCalculateAreaApp.java)
 * [Liskov Substitution Principle (LSP)](src/main/java/in/balamt/practice/solid/Liskov_Substitution_Principle-LSP.md)
+  * [LSPDrawShapeApp.java](src/main/java/in/balamt/practice/solid/lsp/LSPDrawShapeApp.java)
 * [Interface Segregation Principle (ISP)](src/main/java/in/balamt/practice/solid/Interface_Segregation_Principle-ISP.md)
+  * [ISPDriverFlyApp.java](src/main/java/in/balamt/practice/solid/isp/ISPDriveFlyApp.java)
 * [Dependency Inversion Principle (DIP)](src/main/java/in/balamt/practice/solid/Dependency_Inversion_Principle-DIP.md)
-
+  * [DIPCalculatorApp.java](src/main/java/in/balamt/practice/solid/dip/DIPCalculatorApp.java)
+> Refer URL [SOLID](src/main/java/in/balamt/practice/solid)
 
 [Goto Top](#java-practice)
