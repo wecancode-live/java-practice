@@ -24,7 +24,7 @@ public class StreamApp {
 
 		System.out.println("Joining * after the name");
 		System.out.println("\tnames.stream().map(s -> s.toString()).collect(Collectors.joining(\"*\"));");
-		System.out.println(names.stream().map(s -> s.toString()).collect(Collectors.joining("*")));
+		System.out.println(names.stream().map(String::toString).collect(Collectors.joining("*")));
 		System.out.println("End of Joining * after the name\n");
 
 		System.out.println("forEach Stream");
