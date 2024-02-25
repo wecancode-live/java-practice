@@ -1,10 +1,12 @@
 package in.balamt.practice.logical.printing.pattern;
 
+import in.balamt.practice.util.JavaPracticeUtils;
+
 public class StarPatternApp {
 
 	public static void main(String[] args) {
 
-		StarPatternApp.printPattern("*", 18);
+		StarPatternApp.printPattern("*", 5);
 
 	}
 
@@ -28,13 +30,13 @@ public class StarPatternApp {
 
 		for (int i = 1; i <= size; i++) {
 			patternBuilder.append(pattern);
-			System.out.println(patternBuilder.toString());
+			JavaPracticeUtils.print(patternBuilder.toString());
 			// System.out.println(patternBuilder.toString() + addSpaceAndPrint(size + 1 -
 			// i,"*"));
 		}
 
 		for (int i = size; i > 1; i--) {
-			System.out.println(patternBuilder.deleteCharAt(i - 1).toString());
+			JavaPracticeUtils.print(patternBuilder.deleteCharAt(i - 1).toString());
 		}
 
 	}

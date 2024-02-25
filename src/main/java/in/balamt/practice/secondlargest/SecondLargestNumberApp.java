@@ -1,5 +1,7 @@
 package in.balamt.practice.secondlargest;
 
+import in.balamt.practice.util.JavaPracticeUtils;
+
 public class SecondLargestNumberApp {
 
 	public static void main(String[] args) {
@@ -11,15 +13,15 @@ public class SecondLargestNumberApp {
 		for (int i = 0; i < rank.length; i++) { // Iterating over
 
 			if (rank[i] > largest) { // Checking whether the item in array is greater than largest
-				secondLargest = largest; // If greater than largest then we move the largest to the secondLargest
+				secondLargest = largest; // If greater than the largest then we move the largest to the secondLargest
 				largest = rank[i]; // and get the item from array and assign to the largest
 			} else if (rank[i] > secondLargest) { // Checking whether the item in array is greater than second largest
-				secondLargest = rank[i];// If greater than second largest then we assign the item to secondLargest
+				secondLargest = rank[i];// If greater than the second-largest then we assign the item to secondLargest
 			}
 
 		}
 
-		System.out.println("Second Largest " + secondLargest);
+		JavaPracticeUtils.printLine("Second Largest " , secondLargest);
 
 	}
 

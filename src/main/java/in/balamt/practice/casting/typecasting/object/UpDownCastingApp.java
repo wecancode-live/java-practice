@@ -18,13 +18,13 @@ public class UpDownCastingApp {
 
     }
 
-    class Parent {
+    static class Parent {
         public void method1(){
             JavaPracticeUtils.printLine("Parent method1");
         }
     }
 
-    class Child extends Parent {
+    static class Child extends Parent {
         public void method1(){
             JavaPracticeUtils.printLine("Child method1");
         }

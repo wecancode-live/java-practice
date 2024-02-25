@@ -1,5 +1,7 @@
 package in.balamt.practice.logical.printing.pattern;
 
+import in.balamt.practice.util.JavaPracticeUtils;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -20,7 +22,7 @@ public class NumberReducingPatternApp {
      */
     public static void main(String[] args) {
 
-       int n = 5;
+       int n = 9;
        int length = 1;
        List<Integer> numberPatternItems = new ArrayList<>();
 
@@ -29,11 +31,11 @@ public class NumberReducingPatternApp {
            length++;
        }
 
-       //This line actually reverst the entire list, so that the expected number pattern is printed
+       //This line actually reverse the entire list, so that the expected number pattern is printed
        Collections.reverse(numberPatternItems);
 
         for(Integer x: numberPatternItems){
-            System.out.println(x);
+            JavaPracticeUtils.print(x);
         }
 
     }
