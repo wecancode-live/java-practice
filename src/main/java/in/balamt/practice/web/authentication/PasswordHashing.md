@@ -15,3 +15,14 @@ Now When Someone enters password as "secret" and if the application uses md5 alg
 it will produce the same hash/encrypted text. which can be used to authenticate the password.
 
 ```
+
+
+##Types of Hashing Algorithm
+
+* MD5 (No longer secure)
+* SHA-1 (No longer secure)
+* SHA-2 [SHA-256, SHA512] 
+* **Blowfish**/bcrypt (One way hashing algorithm. which is stronger)
+```text
+Blowfish is the excellent choice for hashing passwords.
+```
