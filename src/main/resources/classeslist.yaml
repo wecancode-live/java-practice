@@ -22,16 +22,22 @@ categories:
     classes:
       classname:
         - ArraysApp
-  - name: designpattern
+  - name: designpattern.creational
     classes:
       classname:
         - abstractfactory.AbstractFactoryApp
-        - adapter.AdapterApp
         - builder.BuilderApp
-        - facade.FacadeApp
-        - factory.VehicleApp
-        - proxy.ProxyApp
         - singleton.SingletonApp
+  - name: designpattern.structural
+    classes:
+      classname:
+        - adapter.AdapterApp
+        - facade.FacadeApp
+        - proxy.ProxyApp
+  - name: designpattern.behavioral
+    classes:
+      classname:
+        - adapter.AdapterApp
   - name: equal
     classes:
       classname:
