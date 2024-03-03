@@ -2,6 +2,14 @@
 
 --------------------------------
 
+
+```
+This pattern converts the interface of a class into another interface that clients expect. 
+It allows classes to work together that couldn't otherwise because of incompatible interfaces.
+```
+
+![Adapter Design Pattern Class Diagram](AdapterClassDiag.jpg)
+
 Adapter pattern is similar to the real world adapters we use,
 Consider we have USB to Ethernet adapter or COM to Serial port.
 
