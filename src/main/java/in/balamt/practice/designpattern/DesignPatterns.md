@@ -44,10 +44,10 @@ and instability
 | [Abstract Factory](./creational/abstractfactory) | **[Adapter](./structural/adapter)**     | [Chain of Responsibility](./behavioral) |
 | [Builder](./creational/builder)                  | [Bridge](./structural)                  | [Command](./behavioral)                 |
 | **[Factory Method](./creational)**               | [Composite](./structural)               | [Interpreter](./behavioral)             |
-| [Prototype](./creational)                        | **[Decorator](./structural/decorator)** | **[Iterator](./behavioral)**            |
+| [Prototype](./creational)                        | **[Decorator](./structural/decorator)** | **[Iterator](./behavioral/iterator)**   |
 | [Singleton](./creational/singleton)              | [Facade](./structural/facade)           | [Mediator](./behavioral)                |
 |                                                  | [Flyweight](./structural)               | [Memento](./behavioral)                 |
-|                                                  | [Proxy](./structural/proxy)             | **[Observer](./behavioral)**            |
+|                                                  | [Proxy](./structural/proxy)             | **[Observer](./behavioral/observer)**   |
 |                                                  |                                         | [State](./behavioral)                   |
 |                                                  |                                         | **[Strategy](./behavioral/strategy)**   |
 |                                                  |                                         | [Template](./behavioral)                |
