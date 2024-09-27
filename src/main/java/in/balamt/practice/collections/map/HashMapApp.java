@@ -10,7 +10,7 @@ public class HashMapApp {
 	public static void main(String[] args) {
 
 		Map<Character, Integer> charMap = new HashMap<Character, Integer>();
-		String data = "aabbcceepddf";
+		String data = "DO NOT FORGET TO WRITE YOUR NAME ON THE ANSWER SCRIPTS";
 
 
 		/**

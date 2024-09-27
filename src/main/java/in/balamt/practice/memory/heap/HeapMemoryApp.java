@@ -1,6 +1,6 @@
 package in.balamt.practice.memory.heap;
 
-import in.balamt.practice.solid.dip.Calculator;
+import in.balamt.practice.designprinciple.solid.dip.Calculator;
 
 public class HeapMemoryApp {
 

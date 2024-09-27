@@ -14,14 +14,14 @@ public class StreamFilterApp {
 
 		for (int i = 1; i <= 10; i++) {
 			if (i % 2 == 0) {
-				names.add(names.get(0) + "" + i);
+				names.add(names.get(0) + i);
 			} else {
-				names.add(names.get(1) + "" + i);
+				names.add(names.get(1) + i);
 			}
 		}
 
 		System.out.println("Filter name having odd numbers only");
-		System.out.println("\tnames.stream().map(s -> s.toString()).collect(Collectors.joining(\"*\"));");
+		System.out.println("names.stream().filter(StreamFilterApp::isOddName).forEach(System.out::println)");
 		names.stream().filter(StreamFilterApp::isOddName).forEach(System.out::println);
 		System.out.println("End of Joining * after the name\n");
 
