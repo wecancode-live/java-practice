@@ -37,7 +37,9 @@ categories:
   - name: designpattern.behavioral
     classes:
       classname:
-        - adapter.AdapterApp
+        - iterator.IteratorApp
+        - observer.ObserverApp
+        - strategy.StrategyApp
   - name: equal
     classes:
       classname:
@@ -113,14 +115,14 @@ categories:
       classname:
         - IfApp
         - IfElseApp
-  - name: solid
+  - name: designprinciple
     classes:
       classname:
-        - srp.SRPEmailApp
-        - ocp.OCPCalculateAreaApp
-        - lsp.LSPDrawShapeApp
-        - isp.ISPDriveFlyApp
-        - dip.DIPCalculatorApp
+        - solid.srp.SRPEmailApp
+        - solid.ocp.OCPCalculateAreaApp
+        - solid.lsp.LSPDrawShapeApp
+        - solid.isp.ISPDriveFlyApp
+        - solid.dip.DIPCalculatorApp
   - name: java8
     classes:
       classname:
